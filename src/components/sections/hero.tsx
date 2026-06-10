@@ -40,7 +40,7 @@ export function Hero() {
                                 </Link>
                             </Button>
                             <Button asChild variant="outline" size="lg" className="px-4 rounded-2xl">
-                                <Link href="#" target="_blank">
+                                <Link href={portfolioData.contact.resume} target="_blank">
                                     <FileText className=" h-4 w-4" />
                                     View Resume
                                 </Link>

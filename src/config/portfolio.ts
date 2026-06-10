@@ -67,5 +67,6 @@ export const portfolioData = {
         linkedin: "https://www.linkedin.com/in/jignesh-kalambe",
         github: "https://github.com/jigneshkalambe",
         location: "Surat, Gujarat",
+        resume: "/resume.pdf",
     },
 };
