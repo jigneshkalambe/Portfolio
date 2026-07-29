@@ -16,7 +16,6 @@ export function Projects() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {portfolioData.projects.map((project) => (
                         <Card key={project.title} className="group overflow-hidden rounded-3xl border-none shadow-lg transition-all hover:shadow-xl dark:bg-card/50 py-0 flex flex-col h-full gap-0">
-                            {/* Project Image */}
                             <div className="aspect-video w-full bg-muted relative overflow-hidden">
                                 <Image src={project.image} alt={project.title} fill className="object-cover object-top group-hover:scale-105 transition-transform duration-500" />
                                 {/* Highlight pills overlaid on image */}
